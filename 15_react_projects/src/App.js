@@ -1,5 +1,6 @@
 import React from 'react'
-import ColorGenerator from './projects/project10/ColorGenerator'
+import ProductSearch from './projects/project11/ProductSearch'
+// import ColorGenerator from './projects/project10/ColorGenerator'
 // import Quiz from './projects/project9/Quiz'
 // import CountdownTimer from './projects/project8/CountdownTimer'
 // import ExpenseTracker from './projects/project7/ExpenseTracker'
@@ -22,7 +23,8 @@ function App() {
       {/* <ExpenseTracker/> */}
       {/* <CountdownTimer/> */}
       {/* <Quiz/> */}
-      <ColorGenerator/>
+      {/* <ColorGenerator/> */}
+      <ProductSearch/>
 
     </div>
   )
