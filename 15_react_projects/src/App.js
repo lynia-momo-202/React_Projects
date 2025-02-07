@@ -1,5 +1,6 @@
 import React from 'react'
-import ExpenseTracker from './projects/project7/ExpenseTracker'
+import CountdownTimer from './projects/project8/CountdownTimer'
+// import ExpenseTracker from './projects/project7/ExpenseTracker'
 // import Accordion from './projects/project4/Accordion'
 // import DisplayDate from './projects/project6/DisplayDate'
 // import FriendList from './projects/project5/FriendList'
@@ -16,7 +17,8 @@ function App() {
       {/* <FriendList/> */}
       {/* <DisplayDate/> */}
       {/* <Accordion/> */}
-      <ExpenseTracker/>
+      {/* <ExpenseTracker/> */}
+      <CountdownTimer/>
     </div>
   )
 }
