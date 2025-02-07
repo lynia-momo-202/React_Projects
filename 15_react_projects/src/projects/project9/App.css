@@ -61,6 +61,7 @@
   .answer-button.incorrect {
     background-color: #ff6b6b; 
     border-color: #ff6b6b;
+    color:#fff;
   }
 
   .feedback {

@@ -1,4 +1,4 @@
-export const mockQuestions = [
+const mockQuestions = [
     {
       question: "What is React?",
       correct_answer: "A JavaScript library",
@@ -20,3 +20,4 @@ export const mockQuestions = [
       incorrect_answers: ["High Text Markup Language", "Hyperlinks and Text Markup Language", "Home Tool Markup Language"],
     },
   ];
+  export default mockQuestions ;
