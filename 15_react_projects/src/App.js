@@ -1,5 +1,6 @@
 import React from 'react'
-import Quiz from './projects/project9/Quiz'
+import ColorGenerator from './projects/project10/ColorGenerator'
+// import Quiz from './projects/project9/Quiz'
 // import CountdownTimer from './projects/project8/CountdownTimer'
 // import ExpenseTracker from './projects/project7/ExpenseTracker'
 // import Accordion from './projects/project4/Accordion'
@@ -20,7 +21,9 @@ function App() {
       {/* <Accordion/> */}
       {/* <ExpenseTracker/> */}
       {/* <CountdownTimer/> */}
-      <Quiz/>
+      {/* <Quiz/> */}
+      <ColorGenerator/>
+
     </div>
   )
 }
