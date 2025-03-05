@@ -1,5 +1,6 @@
 import React from 'react'
-import TaskList from './projects/project12/TaskList'
+import TaskListReducer from './projects/project12/TaskListReducer'
+// import TaskList from './projects/project12/TaskList'
 // import ProductSearch from './projects/project11/ProductSearch'
 // import ColorGenerator from './projects/project10/ColorGenerator'
 // import Quiz from './projects/project9/Quiz'
@@ -26,7 +27,8 @@ function App() {
       {/* <Quiz/> */}
       {/* <ColorGenerator/> */}
       {/* <ProductSearch/> */}
-      <TaskList/>
+      {/* <TaskList/> */}
+      <TaskListReducer/>
 
     </div>
   )
