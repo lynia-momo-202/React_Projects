@@ -21,8 +21,8 @@ function TaskListReducer() {
 // console.log(state)
     const hamdleSubmit = (e) => {
         e.preventDefault();
-        dispatch({type:'add-task',payload:{name:taskName}})
-        
+        dispatch({type:'add-task',payload:{name:taskName}});
+        setTaskName("");
     }
 
     const handleDelete = (id) => {
